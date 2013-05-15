@@ -1,0 +1,6 @@
+Follow the link: http://blog.mmediasys.com/2011/07/07/installing-mysql-on-windows-7-x64-and-using-ruby-with-it/
+Comment the line in config => initializers => redis-check.rb #10
+
+Comment "capistrano" in gemfile
+
+put :gem 'mysql2', '< 0.3'
