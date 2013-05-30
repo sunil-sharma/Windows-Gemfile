@@ -15,17 +15,12 @@ Comment the line#10 in "config => initializers => redis-check.rb" (fail "ERROR: 
 
 Comment "capistrano" in gemfile
 
-Replace :gem 'mysql2', '< 0.3'
+Replace :gem 'mysql2', '< 0.3'   
 gem 'eventmachine', '1.0.0.beta.4.1' => gem 'eventmachine'    
 gem "win32-process" =>  gem "win32-process",'0.5.5'   
-'git@github.com:3qilabs/awetest-common.git' => 'https://github.com/3qilabs/awetest-common.git'  
+"git@github.com:3qilabs/awetest-common.git" => "https://github.com/3qilabs/awetest-common.git"
 
 
-
-bundle exec resque-web => bundle exec resque-web -p 8282 -F
-
-
-for SystemTimer=>http://mtjhax.wordpress.com/2010/12/23/ruby-systemtimer-gem-for-windows/
 
 For Awetest Following worker should be started: 1.bundle exec rake environment resque:work PID_FILE=/awetest/tmp/pids/resque_workers.pid QUEUE=regression_test_logs,notifications,documentation RAILS_ENV=development VVERBOSE=1 --trace
 
