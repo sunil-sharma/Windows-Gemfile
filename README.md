@@ -23,9 +23,8 @@ Replace :
   
 
 
-For Awetest Following worker should be started: 1.bundle exec rake environment resque:work PID_FILE=/awetest/tmp/pids/resque_workers.pid QUEUE=regression_test_logs,notifications,documentation RAILS_ENV=development VVERBOSE=1 --trace
-
-
-2. bundle exec resque-web -p 8282 -F
-3. In shamisen=> shamisen.bat
-4. redis-server
+For Awetest Following worker should be started:  
+1.bundle exec rake environment resque:work PID_FILE=/awetest/tmp/pids/resque_workers.pid QUEUE=regression_test_logs,notifications,documentation RAILS_ENV=development VVERBOSE=1 --trace     
+2. bundle exec resque-web -p 8282 -F   
+3. In shamisen=> shamisen.bat  
+4. redis-server 
