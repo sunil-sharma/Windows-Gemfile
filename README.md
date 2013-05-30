@@ -15,7 +15,7 @@ Comment the line#10 in "config => initializers => redis-check.rb" (fail "ERROR: 
 
 Comment "capistrano" in gemfile
 
-Replace :
+Replace :    
 gem 'mysql2', '< 0.3'   
 gem 'eventmachine', '1.0.0.beta.4.1' => gem 'eventmachine'    
 gem "win32-process" =>  gem "win32-process",'0.5.5'   
