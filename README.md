@@ -10,15 +10,15 @@ Ruby on rails Installation on windows...
 Follow the link for Mysql connectivity with our App: http://blog.mmediasys.com/2011/07/07/installing
 -mysql-on-windows-7-x64-and-using-ruby-with-it/
 
-Comment the line#10 in "config => initializers => redis-check.rb"
+Comment the line#10 in "config => initializers => redis-check.rb" (fail "ERROR: Redis database should be running. Run: redis-start"
+  end)
 
 Comment "capistrano" in gemfile
 
 Replace :gem 'mysql2', '< 0.3'
-
-gem 'eventmachine', '1.0.0.beta.4.1' => gem 'eventmachine'
-gem "win32-process" =>  gem "win32-process",'0.5.5'
-'git@github.com:3qilabs/awetest-common.git' => 'https://github.com/3qilabs/awetest-common.git'
+gem 'eventmachine', '1.0.0.beta.4.1' => gem 'eventmachine'    
+gem "win32-process" =>  gem "win32-process",'0.5.5'   
+'git@github.com:3qilabs/awetest-common.git' => 'https://github.com/3qilabs/awetest-common.git'  
 
 
 
