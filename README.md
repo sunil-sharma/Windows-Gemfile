@@ -1,11 +1,11 @@
 Windows-Gemfile
 ===============
 Ruby on rails Installation on windows...
-1. Download Ruby (version) and install it.
 
+1. Download Ruby (version) and install it.
 2. Then follow the link :"https://github.com/oneclick/rubyinstaller/wiki/Development-Kit" step by step
 3. Install bundler with "gem install bundler" command.
-4. bundle install.. Thats all for ruby setup on windows..then following are some changes in Gemfile 
+4. "bundle install" Thats all for ruby setup on windows. Following are some changes in Gemfile before bundle install in awetest setup. 
 
 Follow the link for Mysql connectivity with our App: http://blog.mmediasys.com/2011/07/07/installing
 -mysql-on-windows-7-x64-and-using-ruby-with-it/
